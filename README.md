@@ -1,16 +1,31 @@
-# Introduction to GitHub
+# Projet_3_G-nie_Logiciel_
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+**Objectif:**
+Ce projet consiste à concevoir une application permettant de simuler l’adressage IP en calculant les sous-réseaux à partir d’une adresse IP et d’un masque.L'application doit permettre aux utilisateurs d’entrer une adresse IP et un masque de sous-réseau, puis de générer les sous-réseaux correspondants. Elle repose sur C++ et utilise Qt pour l’interface graphique. Les structures de données STL (bitset, map, vector) sont employées pour la gestion des informations.
 
-Hey @Alex542277!
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+**Modélisation UML**
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Avant d’implémenter l’application, il faut concevoir au moins deux diagrammes UML:
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/Alex542277/Projet_3_G-nie_Logiciel/issues/1)
+***-Diagramme de cas d'utilisation***: décrit les interactions entre l’utilisateur et le système.\
+***-Diagramme de classes***: montre les relations entre les différentes classes de l’application.\
+***-Diagramme de séquence***: représente l’ordre des interactions entre les objets lors d'une opération spécifique.\
+Ces diagrammes seront présentés dans un document PDF contenant une explication des choix de conception.
 
----
+**Implémentation en C++**
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+***-Gestion des données***: utiliser bitset pour manipuler les adresses IP binaires, map pour stocker les sous-réseaux et vector pour organiser les résultats.\
+***-Interface graphique Qt***: permettre aux utilisateurs de saisir les données et d'afficher les résultats de manière intuitive.\
+***-Documentation du code***: ajouter des commentaires et créer une documentation technique.\
+***-Rapport technique***: expliquer l'architecture du programme, les choix de conception et les méthodes utilisées.\
+***-Démonstration***: préparer une présentation de l’application en fonctionnement.\
+Le projet demande une approche bien structurée, avec une modélisation UML solide et une implémentation efficace en C++
 
+
+
+
+
+
+
+ 
